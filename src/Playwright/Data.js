@@ -1,5 +1,5 @@
 /* global require exports */
-import { chromium as pwChromium, firefox as pwFirefox, webkit as pwWebkit } from 'playwright';
+import { chromium as pwChromium, firefox as pwFirefox, webkit as pwWebkit } from 'playwright-aws-lambda';
 
 export const png = "png";
 export const jpg = "jpg";
